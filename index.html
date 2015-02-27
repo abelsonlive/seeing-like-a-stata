@@ -1,0 +1,174 @@
+        <!doctype html>
+        <html lang="en">
+
+            <head>
+                <meta charset="utf-8">
+
+                <title>Seeing Like Stata</title>
+
+                <meta name="description" content="Seeing Like A Stata, Columbia CUPID, 2015">
+                <meta name="author" content="Brian Abelson">
+
+                <meta name="apple-mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+                <!-- Le Styles -->
+                <link rel="stylesheet" href="css/reveal.min.css">
+                <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+                <link rel="stylesheet" href="css/fullscreen-img.css">
+
+                <!-- For syntax highlighting -->
+                <link rel="stylesheet" href="lib/css/zenburn.css">
+
+                <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+                <script>
+                    document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+                </script>
+
+            </head>
+
+            <body>
+
+                <div class="reveal">
+                    <div class="slides">
+
+                        <!-- Beginning of my slides -->
+                        <section>
+                            <h2>Seeing Like A <br/> <img src='img/stata.jpeg' height='100px'></h2>
+                            <i> <p> How certain data-driven schemes to improve the human condition have failed </p>
+                            (while achieving a high R^2).</i>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <a href="http://abelson.nyc">Brian Abelson</a>
+                            <br/>
+                            <a href="http://twitter.com/brianabelson"> @brianabelson </a> 
+                            |
+                            <a href="mailto:brianabelson@gmail.com">brianabelson@gmail.com</a>
+                            <br/>
+                            <br/>
+                            <p>
+                                Senior Data Scientist, <a href='http://enigma.io'>Enigma</a>
+                            </p>
+                            <p>
+                                Research Fellow, Tow Center
+                            </p>
+                            <p>
+                                <small> slides: <a href="http://abelson.nyc/seeing-like-a-statitician/">abelson.nyc/seeing-like-a-stata</a></small>
+                            </p>
+                        </section>
+
+                        <section>
+                            <blockquote>
+                                Certain forms of knowledge and control require a narrowing of vision. The great advantage of such tunnel vision is that it brings into sharp focus certain limited aspects of an otherwise far more complex and unwieldy reality. This very simplification, in turn, makes the phenomenon at the center of the field of vision more legible and hence more susceptible to careful measurement and calculation.
+                            </blockquote>
+                            <br></br>
+                            - James C. Scott, <i> Seeing Like a State </i>
+                        </section>
+
+                        <section>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            <h2>How Can We See...</h2>
+                            </br>
+                            </br>
+                            <h2> The Forest Through The Trees?</h2>
+                            </br>
+                            </br>
+                            </br>
+                        </section>
+
+                        <section>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            <h2>How Can We See...</h2>
+                            </br>
+                            </br>
+                            <h2> Poverty from Rooftops?</h2>
+                            </br>
+                            </br>
+                            </br>
+                        </section>
+
+                        <section>
+                            <h2> The Importance of A Roof Over One's Head</h2>
+                            </br>
+                            <img width="600px" src="img/thatched.png"> <img width="600px" src="img/steel.png">
+                            </br>
+                            </br>
+                        </section>
+
+                        <section>
+                            <h2> The Importance of A Roof Over One's Head</h2>
+                            </br>
+                            <img width="500px" src="img/thatched-satellite.png"> <img width="500px" src="img/steel-satellite.png">
+                            </br>
+                            </br>
+                        </section>
+
+                        <section>
+                            <h2> The Crowd in the Cloud </h2>
+                            <img width="780px" src="img/dymo.png">
+                        </section>
+
+                        <section>
+                            <h2> Seeing Like a Statistician</h2>
+                            <img width="302px" src="img/tmpl1.png"> <img width="302px" src="img/tmpl2.png">
+                            <img width="302px" src="img/tmpl3.png"> <img width="302px" src="img/tmpl4.png">
+                        </section>
+
+                        <section>
+                            <h2> Seeing Like a Statistician</h2>
+                            <img width="1000px" src="img/map.png">
+                            </br>
+                        </section>
+
+                        <section>
+                            <h2> Success?</h2>
+                            <img width="800px" src="img/bush.jpg">
+                            </br>
+                        </section>
+
+
+                    </div>
+                </div>
+
+                 <script src="lib/js/head.min.js"></script>
+                <script src="js/reveal.min.js"></script>
+
+                <script>
+
+                    // Full list of configuration options available here:
+                    // https://github.com/hakimel/reveal.js#configuration
+                    Reveal.initialize({
+                        controls: true,
+                        progress: true,
+                        history: true,
+                        center: true,
+                        width: 1280,
+                    height: 720,
+                        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                        // Optional libraries used to extend on reveal.js
+                        dependencies: [
+                            { src: 'lib/js/fullscreen-img.js' },
+                            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                        ]
+                    });
+
+                </script>
+
+            </body>
+        </html>
