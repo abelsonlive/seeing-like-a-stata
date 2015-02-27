@@ -1,9 +1,5 @@
-Activism and Advocacy with Data Narratives
-=================================
+Seeing Like A Stata
+===================
+How certain data-driven schemes to improve the human condition have failed (while achieving a high R^2).
 
-February 24, 2015, Columbia University
-
-To view the slides, run `python -m SimpleHTTPServer` in your terminal and navigate to [http://localhost:8000](http://localhost:8000) in a web browser.
-
-
-
+Slides for Talk at Columbia CUPID, 2015
